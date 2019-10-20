@@ -5,7 +5,7 @@ session_start();
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Application Finder</title>
+  <title>Easy Estate</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -30,7 +30,7 @@ session_start();
   <!-- Main Stylesheet File -->
   <link href="css/styleApplicant.css" rel="stylesheet">
 
-  
+
 </head>
 
 <body>
@@ -42,7 +42,7 @@ session_start();
     <div class="container-fluid">
 
       <div id="logo" class="pull-left">
-        <h1><a href="index.html" class="scrollto" style="font-size:27px;" >Application Finder</a></h1>
+        <h1><a href="index.html" class="scrollto" style="font-size:27px;" >Easy Estate</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="#intro"><img src="img/logo.png" alt="" title="
           " /></a>-->
@@ -50,31 +50,31 @@ session_start();
 		<nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="applications.php">Go back</a></li>
-          
+
         </ul>
       </nav>
-        
+
 
     </div>
   </header><!-- #header -->
 </br>
 </br>
 
-  
 
 
-    
-   
+
+
+
     <!--==========================
       Contact Section
     ============================-->
     <section id="contact" class="section-bg wow fadeInUp">
       <div class="container">
-        
+
             </br>
             </br>
-        <h2> Application Details </h2>  
-        <br>        
+        <h2> Application Details </h2>
+        <br>
         <table class="table table-hover">
         <thead class="thead-dark">
         <tr>
@@ -88,7 +88,7 @@ session_start();
           <th>Status</th>
         </tr>
         </thead>
-	
+
 		<?php
 			foreach($_SESSION["detail"] as $v)
 		{
@@ -108,7 +108,7 @@ session_start();
         echo"</tr>";
 		}
 		?>
-	
+
         </table>
       </div>
     </section>
@@ -122,7 +122,7 @@ session_start();
       <div class="container">
         <div class="row">
 
-          
+
 
           <div class="col-lg-4 col-md-4 footer-links">
             <h4>Useful Links</h4>
@@ -130,7 +130,7 @@ session_start();
               <li><i class="ion-ios-arrow-right"></i> <a href="index.html">Home</a></li>
               <li><i class="ion-ios-arrow-right"></i> <a href=index.html#about>About us</a></li>
               <li><i class="ion-ios-arrow-right"></i> <a href=index.html#services>Services</a></li>
-              
+
             </ul>
           </div>
 
@@ -148,7 +148,7 @@ session_start();
               <a href="https://twitter.com/login?lang=en" class="twitter"><i class="fa fa-twitter"></i></a>
               <a href="https://www.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a>
               <a href="https://www.instagram.com/" class="instagram"><i class="fa fa-instagram"></i></a>
-              
+
             </div>
 
           </div>
@@ -207,4 +207,3 @@ session_start();
 
 </body>
 </html>
-
